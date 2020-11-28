@@ -32,3 +32,12 @@ body {
   margin-bottom: 20px;
   margin-top: 10px;
 }
+
+.border-line{
+  border-bottom: 1px solid #E8E8E8;
+  margin-bottom: 22px;
+}
+
+.App-Icon{
+  margin-right: 12px;
+}
