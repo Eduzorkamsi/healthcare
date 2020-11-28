@@ -163,7 +163,7 @@ export default function App() {
             flex: 1,
             padding: "10px",
             background: "#E5E5E5",
-            height: "100vh",
+            height: "200vh",
           }}
         >
           <Switch>

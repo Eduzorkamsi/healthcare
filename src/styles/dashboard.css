@@ -1,4 +1,75 @@
-.dashboard{
-    padding-left: 36px;
+.dashboard {
+  padding-left: 36px;
+  padding-top: 24px;
+}
+
+.dashboard_cards {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 19px;
+  margin-top: 32px;
+}
+
+.card {
+  height: 88px;
+  width: 255px;
+  background-color: white;
+  margin-right: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.card_icon {
+  padding-left: 24px;
+  margin-right: 24px;
+}
+
+.card_info h4 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  color: #25282b;
+  margin-bottom: 0px;
+}
+
+.card_info h3 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #336cfb;
+  margin-top: 0px;
+}
+
+.hospital_yearly_survey{
+    padding-left: 24px;
     padding-top: 24px;
+    height: 374px;
+    width: 70.6vw;
+    background-color: white;
+    margin-bottom: 56px;
+}
+
+.hospital_monthly_survey{
+    margin-bottom: 23px;
+    display: flex;
+    flex-direction: row;
+}
+
+.prev_month{
+    height: 286px;
+    width: 35.5vw;
+    background-color: white;
+    margin-right: 15px;
+    
+}
+
+.current_month{
+    height: 286px;
+    width: 35.5vw;
+    background-color: white;
+   
 }

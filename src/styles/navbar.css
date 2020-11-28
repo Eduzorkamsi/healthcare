@@ -7,7 +7,7 @@
     width: 100%;
     border-radius: 15px;
     border: 1px #A0A4A8 solid;
-    padding: 5px 5px 5px 25px;
+    padding: 12px 5px 12px 25px;
     top: 0;
     left: 0;
     z-index: 5;
@@ -17,12 +17,12 @@
 
 .search {
     position: relative;
-    width: 190px;
-    height: 30px;
+    width: 350px;
+    height: 40px;
 }
 
 .leftnav{
-    margin-right: 70%;
+    margin-right: 60%;
 }
 
 
