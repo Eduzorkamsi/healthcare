@@ -17,6 +17,7 @@ import Icon6 from "./assets/icons/creditcard.svg";
 import Icon7 from "./assets/icons/help.svg";
 import Department from "./components/departments";
 import Dashboard from "./components/dashboard";
+import Appointments from "./components/appointments";
 
 
 // import CreditCard from "./assets/creditcard"
@@ -29,7 +30,7 @@ const routes = [
   },
   {
     path: "/appointments",
-    main: () => <h2>Appointments</h2>,
+    main: () => <Appointments/>,
   },
   {
     path: "/doctors",

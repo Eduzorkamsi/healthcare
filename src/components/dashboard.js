@@ -5,6 +5,8 @@ import CardIcon1 from "../assets/icons/kit.svg";
 import CardIcon2 from "../assets/icons/patients2.svg";
 import CardIcon3 from "../assets/icons/operation.svg";
 import CardIcon4 from "../assets/icons/bank.svg";
+import MultiChart  from "./multichart";
+import MonthlyChart from "./monthlychart";
 
 const Dashboard = () => {
   return (
@@ -43,14 +45,14 @@ const Dashboard = () => {
         </div>
         <div className="hospital_survey">
             <div className="hospital_yearly_survey">
-
+            <MultiChart/>
             </div>
             <div className="hospital_monthly_survey">
                 <div className="prev_month">
-
+                <MonthlyChart/>
                 </div>
                 <div className="current_month">
-                    
+                <MonthlyChart/>
                 </div>
             </div>
         </div>

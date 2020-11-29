@@ -12,7 +12,7 @@
 
 .card {
   height: 88px;
-  width: 255px;
+  width: 17vw;
   background-color: white;
   margin-right: 30px;
   display: flex;
@@ -45,11 +45,10 @@
 }
 
 .hospital_yearly_survey{
-    padding-left: 24px;
+    padding-left: 0px;
     padding-top: 24px;
     height: 374px;
-    width: 70.6vw;
-    background-color: white;
+    width: 72vw;
     margin-bottom: 56px;
 }
 
@@ -57,19 +56,18 @@
     margin-bottom: 23px;
     display: flex;
     flex-direction: row;
+
 }
 
 .prev_month{
     height: 286px;
-    width: 35.5vw;
-    background-color: white;
+    width: 36.5vw;
     margin-right: 15px;
     
 }
 
 .current_month{
     height: 286px;
-    width: 35.5vw;
-    background-color: white;
+    width: 36.5vw;
    
 }
