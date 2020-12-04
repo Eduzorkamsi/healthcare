@@ -1,6 +1,8 @@
 # healthcare
 a health care app for making appointments and monitoring patient stats and hospital data
 
+This project is live at : https://myhealthcare.netlify.app/ (still a new project and heavily under construction but i want to give your imagination something to feast on)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
