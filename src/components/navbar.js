@@ -3,10 +3,10 @@ import "../styles/navbar.css";
 import Bell from "../assets/icons/bell.svg";
 import ProfileFace from "../assets/icons/profile.svg";
 
-const Navbar = () => {
+const Mynavbar = () => {
   return (
     <>
-      <div className="navbar">
+      <div className="navbar_top1">
         <div class="leftnav">
           <form id="search-form">
             <div class="search">
@@ -33,4 +33,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Mynavbar;

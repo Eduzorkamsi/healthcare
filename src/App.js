@@ -18,6 +18,7 @@ import Icon7 from "./assets/icons/help.svg";
 import Department from "./components/departments";
 import Dashboard from "./components/dashboard";
 import Appointments from "./components/appointments";
+import Doctors from "./components/doctors"
 
 
 // import CreditCard from "./assets/creditcard"
@@ -34,7 +35,7 @@ const routes = [
   },
   {
     path: "/doctors",
-    main: () => <h2>Doctors</h2>,
+    main: () => <Doctors/>,
   },
   {
     path: "/departments",
@@ -164,7 +165,7 @@ export default function App() {
             flex: 1,
             padding: "10px",
             background: "#E5E5E5",
-            height: "200vh",
+            height: "300vh",
           }}
         >
           <Switch>

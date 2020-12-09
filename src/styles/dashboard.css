@@ -10,7 +10,7 @@
   margin-top: 32px;
 }
 
-.card {
+.card1 {
   height: 88px;
   width: 17vw;
   background-color: white;
@@ -19,12 +19,12 @@
   flex-direction: row;
 }
 
-.card_icon {
+.card_icon1 {
   padding-left: 24px;
   margin-right: 24px;
 }
 
-.card_info h4 {
+.card_info1 h4 {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -34,7 +34,7 @@
   margin-bottom: 0px;
 }
 
-.card_info h3 {
+.card_info1 h3 {
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -70,4 +70,15 @@
     height: 286px;
     width: 36.5vw;
    
+}
+
+.appointment_activity{
+  margin-top: 150px;
+  width: 72vw;
+  background-color: white;
+}
+
+.appointment_header{
+  margin-top: 24px;
+  padding: 24px;
 }

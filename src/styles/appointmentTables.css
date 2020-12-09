@@ -1,0 +1,30 @@
+.appointments{
+    margin-left: 36px;
+}
+
+.a_header h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 46px;
+  letter-spacing: 0.2px;
+  color: #25282b;
+
+}
+
+thead{
+    background-color: #E8E8E8;
+}
+
+tbody{
+    background-color: white;
+}
+
+.named_column{
+    display: flex;
+    flex-direction: row;
+}
+
+.face_icon1{
+    margin-left: 5vw;
+}
