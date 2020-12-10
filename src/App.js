@@ -163,7 +163,8 @@ export default function App() {
         <div
           style={{
             flex: 1,
-            padding: "10px",
+            paddingLeft: "10px",
+            paddingTop: "10px",
             background: "#E5E5E5",
             height: "300vh",
           }}
