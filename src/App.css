@@ -35,7 +35,14 @@ body {
 
 .border-line{
   border-bottom: 1px solid #E8E8E8;
+  width:25vw;
   margin-bottom: 22px;
+}
+
+.border-divider{
+  border-right: 1px solid #E8E8E8;
+  height: 100vh;
+ 
 }
 
 .App-Icon{

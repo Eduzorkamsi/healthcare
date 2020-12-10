@@ -67,8 +67,10 @@ export default function App() {
             background: "#FFFFFF",
             height: "100vh",
           }}
+          
         >
           <img src={Logo} className="App-logo" alt="logo" />
+          
           <h3 className="App-desc">MEDICINE</h3>
           <ul style={{ listStyleType: "none", padding: 0 }}>
             <li className="navli">
@@ -159,13 +161,13 @@ export default function App() {
             </li>
           </ul>
         </div>
-
+        <div className="border-divider"></div>
         <div
           style={{
             flex: 1,
             paddingLeft: "10px",
             paddingTop: "10px",
-            background: "#E5E5E5",
+            background: "white",
             height: "300vh",
           }}
         >
