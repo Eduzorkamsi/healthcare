@@ -35,10 +35,10 @@ const Doctorslogs = () => {
             </div>
             <div className="profile_contact">
               <div className="profile_message">
-                  <img src={Message} className="message_button"/>
+                  <img src={Message} className="message_button" alt="message"/>
               </div>
               <div className="profile_appointment">
-                  <img src={Appointment} className="appointment_button"/>
+                  <img src={Appointment} className="appointment_button" alt="appointment"/>
               </div>
             </div>
           </div>
