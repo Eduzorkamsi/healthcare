@@ -5,9 +5,9 @@ import CardIcon1 from "../assets/icons/kit.svg";
 import CardIcon2 from "../assets/icons/patients2.svg";
 import CardIcon3 from "../assets/icons/operation.svg";
 import CardIcon4 from "../assets/icons/bank.svg";
-import MultiChart  from "./multichart";
-import MonthlyChart from "./monthlychart";
-import AppointmentTable from "./appointmentTables";
+// import MultiChart  from "./multichart";
+// import MonthlyChart from "./monthlychart";
+// import AppointmentTable from "./appointmentTables";
 
 const Dashboard = () => {
   return (
@@ -44,7 +44,7 @@ const Dashboard = () => {
             </div>
           </div>
         </div>
-        <div className="hospital_survey">
+        {/* <div className="hospital_survey">
             <div className="hospital_yearly_survey">
             <MultiChart/>
             </div>
@@ -56,11 +56,11 @@ const Dashboard = () => {
                 <MonthlyChart/>
                 </div>
             </div>
-        </div>
-        <div className="appointment_activity">
+        </div> */}
+        {/* <div className="appointment_activity">
           <h2 className="appointment_header">Appointment Activity </h2>
         <AppointmentTable/>
-        </div>
+        </div> */}
         
       </div>
     </>

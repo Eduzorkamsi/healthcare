@@ -5,6 +5,7 @@ import Doc2 from "../assets/images/doc2.svg"
 import Doc3 from "../assets/images/doc3.svg"
 import Star from "./ratingstars";
 import Ellipse3 from "../assets/icons/Ellipse3.svg";
+import {NavLink}  from "react-router-dom";
 
 const Doctors=()=>{
 
@@ -35,7 +36,7 @@ const Doctors=()=>{
     <div className="doc1">
 <img src={Doc1} className="doc_icon" alt="doc"/>
 <div className="doctors_details">
-<h3>Dr. Jacob Jones</h3>
+<NavLink to="/doctorslogs"><h3>Dr. Jacob Jones</h3></NavLink>
         <div className="field_hospital">
             <h4>Heart</h4> <h4 style={{marginLeft:"15px", marginTop:"15px"}}><img src={Ellipse3} className="ellipse3" alt="ellipse3"/></h4>
             <h4 className="hospital">St. John's Hospital</h4>
@@ -101,7 +102,7 @@ const Doctors=()=>{
     <div className="doc1">
 <img src={Doc1} className="doc_icon" alt="doc"/>
 <div className="doctors_details">
-<h3>Dr. Jacob Jones</h3>
+<NavLink to="/doctorslogs"><h3>Dr. Jacob Jones</h3></NavLink>
         <div className="field_hospital">
             <h4>Heart</h4> <h4 style={{marginLeft:"15px", marginTop:"15px"}}><img src={Ellipse3} className="ellipse3" alt="ellipse3"/></h4>
             <h4 className="hospital">St. John's Hospital</h4>

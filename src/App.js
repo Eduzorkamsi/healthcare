@@ -19,6 +19,7 @@ import Department from "./components/departments";
 import Dashboard from "./components/dashboard";
 import Appointments from "./components/appointments";
 import Doctors from "./components/doctors"
+import Doctorslogs from "./components/doctorlogs"
 
 
 // import CreditCard from "./assets/creditcard"
@@ -181,7 +182,9 @@ export default function App() {
                 exact={route.exact}
                 children={<route.main />}
               />
+             
             ))}
+             <Route path="/doctorslogs" component={Doctorslogs} />
           </Switch>
         </div>
       </div>

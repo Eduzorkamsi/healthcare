@@ -1,0 +1,53 @@
+.doctorslogs {
+  padding: 16px;
+}
+
+.profile_image {
+  background-image: url("../assets/images/doc4.svg");
+  background-color: #e5e5e5;
+  background-repeat: no-repeat;
+  width: 375px;
+  height: 340px;
+}
+
+.profile_back {
+  margin-top: 20px;
+  margin-right: 18vw;
+  margin-left: 2vw;
+}
+
+.profile_details {
+  padding: 1px 24px 24px;
+  border: 3px solid;
+  width: 321px;
+  border-color:#e5e5e5;
+}
+.profile_name h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+
+}
+
+.profile_text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.005em;
+width: 327px;
+  color: #c4c4c4;
+}
+
+.profile_contact{
+    display: flex;
+    flex-direction: row;
+    padding-top: 16px ;
+}
+
+.profile_message{
+    margin-right: 16px;
+}
+
