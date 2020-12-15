@@ -45,3 +45,13 @@
     margin-left: 15px;
    
   }
+
+  @media (max-width: 426px){
+  .search{
+      width: 100px;
+  }
+
+  .leftnav{
+      margin-right: 30vw;
+  }
+  }

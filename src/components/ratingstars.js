@@ -3,7 +3,7 @@ import ReactStars from "react-rating-stars-component";
 
 
 const firstExample = {
-    size: 20,
+    size: 15,
     value: 5,
     edit: false
   };

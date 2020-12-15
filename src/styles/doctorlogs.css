@@ -21,6 +21,7 @@
   border: 3px solid;
   width: 321px;
   border-color:#e5e5e5;
+  border-radius: 8px;
 }
 .profile_name h3 {
   font-style: normal;
@@ -51,3 +52,36 @@ width: 327px;
     margin-right: 16px;
 }
 
+@media (max-width: 426px){
+  .doctorslogs{
+    padding-left: 24px;
+    padding-top: 0px;
+  }
+
+  .profile_back{
+    margin-top: 50px;
+    margin-right: 63vw;
+    margin-left: 5vw;
+  }
+
+  .profile_image{
+    width: 80.5vw;
+  }
+  .profile_details{
+    width: 67.9vw;
+  }
+
+  .message_button{
+    width: 12vw;
+  }
+
+  .appointment_button{
+    width: 55vw;
+  }
+
+  .profile_text{
+    width: 70vw;
+  }
+
+
+}

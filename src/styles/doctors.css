@@ -38,6 +38,12 @@
   margin-bottom: -10px;
 }
 
+.doctors_search {
+  position: relative;
+  width: 350px;
+  height: 40px;
+}
+
 .view_all {
   margin-top: 20px;
   text-decoration: none;
@@ -69,14 +75,14 @@
   margin-top: 24px;
   background-color: white;
   height: 20vh;
-  border-radius: 4px;
+  border-radius: 8px;
   width: 28vw;
   padding-left: 20px;
   /* box-shadow: 5px 10px whitesmoke; */
   display: flex;
  border: 1px solid;
  border-color:whitesmoke ;
- box-shadow: 1px 1px 1px 1px #c4c4c4;
+ box-shadow: 0px 1px 15px -4px #c4c4c4;
 }
 
 .doctors_details {
@@ -154,7 +160,7 @@ color: #AAAAAA;
     letter-spacing: 0.004em;
     background: #CCF5E1;
     border-color: #CCF5E1;
-    border-radius: 4px;
+    border-radius: 8px;
     color: #00CC6A;
    margin-left: -35px;
 } 
@@ -171,7 +177,64 @@ button{
     letter-spacing: 0.004em;
     background: #F7E4D9;
     border-color: #F7E4D9;
-    border-radius: 4px;
+    border-radius: 8px;
     color: #CC4900;
     margin-left: -35px
 } 
+
+@media(max-width: 426px){
+  .doctors_heading h2{
+    font-size: 24px;
+  }
+
+  .doctors_heading span{
+    font-size: 24px;
+  }
+
+  .doctors_page{
+    padding-left: 50px;
+  }
+
+  .doctors_search{
+    width: 260px;
+  }
+
+.h3_doctor{
+  margin-right: 35vw;
+}  
+
+.top_doctors{
+  display: flex;
+  flex-direction: column;
+}
+
+.top_doctors_right{
+  margin-left: 0px;
+}
+
+.doc1{
+  width: 68vw;
+  padding-left: 12px;
+}
+
+.field_hospital h4{
+  font-size: 12px;
+}
+
+.hospital{
+ white-space: nowrap;
+ font-size: 10px;
+}
+
+.field_hospital{
+  margin-top: -25px;
+}
+
+.rating{
+  margin-top: -10px;
+}
+
+.a_button{
+  margin-top: -10px;
+}
+}

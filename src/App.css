@@ -48,3 +48,13 @@ body {
 .App-Icon{
   margin-right: 12px;
 }
+
+@media (max-width: 426px){
+.main_sidebar{
+  display: none;
+}
+
+.main_page_div{
+  padding-top: 0px!important;
+}
+}

@@ -16,7 +16,7 @@ const Doctors=()=>{
                 <h2>Find <span>your doctor</span></h2>
 <div className="doctors_search">
 <form id="search-form">
-            <div class="search">
+            <div class="doctors_search">
               <input
                 type="text"
                 name="search"

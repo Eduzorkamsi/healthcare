@@ -62,6 +62,7 @@ export default function App() {
     <Router>
       <div style={{ display: "flex" }}>
         <div
+       className="main_sidebar"
           style={{
             padding: "24px",
             width: "20%",
@@ -163,7 +164,7 @@ export default function App() {
           </ul>
         </div>
         <div className="border-divider"></div>
-        <div
+        <div className="main_page_div"
           style={{
             flex: 1,
             paddingLeft: "10px",

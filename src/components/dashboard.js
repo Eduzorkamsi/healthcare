@@ -5,6 +5,7 @@ import CardIcon1 from "../assets/icons/kit.svg";
 import CardIcon2 from "../assets/icons/patients2.svg";
 import CardIcon3 from "../assets/icons/operation.svg";
 import CardIcon4 from "../assets/icons/bank.svg";
+import {NavLink}  from "react-router-dom";
 // import MultiChart  from "./multichart";
 // import MonthlyChart from "./monthlychart";
 // import AppointmentTable from "./appointmentTables";
@@ -18,7 +19,7 @@ const Dashboard = () => {
           <div className="card1">
             <img src={CardIcon1} className="card_icon1" alt="Icon" />
             <div className="card_info1">
-                <h4>Appointments</h4>
+              <NavLink to="/appointments" ><h4>Appointments</h4></NavLink> 
                 <h3>213</h3>
             </div>
           </div>
@@ -32,7 +33,7 @@ const Dashboard = () => {
           <div className="card1">
             <img src={CardIcon3} className="card_icon1" alt="Icon" />
             <div className="card_info1">
-            <h4>Operations</h4>
+            <NavLink to ="/doctors"><h4>Operations</h4></NavLink>
                 <h3>24</h3>
             </div>
           </div>
