@@ -87,7 +87,7 @@
 
 @media (max-width:426px){
   .dashboard{
-    padding-left: 50px;
+    padding-left: 60px;
   }
   .dashboard_cards{
     display: flex;
@@ -95,7 +95,7 @@
   }
 
   .card1{
-    width: 72vw;
+    width: 90vw;
     height: 100px;
     margin-bottom: 20px;
   }

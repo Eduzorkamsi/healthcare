@@ -17,7 +17,7 @@ const appointmentTable = (props) => {
     <table>
       <thead>
         <tr className="table_heading">
-          <th>Name</th>
+          <th className="catergory_name">Name</th>
           <th>Email</th>
           <th>Date</th>
           <th>Visit Time</th>

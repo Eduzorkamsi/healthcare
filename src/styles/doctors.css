@@ -192,15 +192,15 @@ button{
   }
 
   .doctors_page{
-    padding-left: 50px;
+    padding-left: 60px;
   }
 
   .doctors_search{
-    width: 260px;
+    width: 82vw;
   }
 
 .h3_doctor{
-  margin-right: 35vw;
+  margin-right: 52vw;
 }  
 
 .top_doctors{
@@ -213,7 +213,7 @@ button{
 }
 
 .doc1{
-  width: 68vw;
+  width: 85vw;
   padding-left: 12px;
 }
 

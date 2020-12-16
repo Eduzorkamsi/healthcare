@@ -12,9 +12,23 @@
 
 }
 
+table{
+    border-spacing: 0px;
+}
+
 thead{
     background-color: #E8E8E8;
+    
 }
+
+.table_heading{
+    height: 50px;
+}
+
+.table_heading th{
+    text-align: left;
+}
+
 
 tbody{
     background-color: white;

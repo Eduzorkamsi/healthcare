@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/dashboard.css";
 import Mynavbar from "./navbar";
 import CardIcon1 from "../assets/icons/kit.svg";
-import CardIcon2 from "../assets/icons/patients2.svg";
+import CardIcon2 from "../assets/icons/crutch.svg";
 import CardIcon3 from "../assets/icons/operation.svg";
 import CardIcon4 from "../assets/icons/bank.svg";
 import {NavLink}  from "react-router-dom";

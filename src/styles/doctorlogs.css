@@ -60,27 +60,28 @@ width: 327px;
 
   .profile_back{
     margin-top: 50px;
-    margin-right: 63vw;
-    margin-left: 5vw;
+    margin-right: 78vw;
+    margin-left: 8vw;
   }
 
   .profile_image{
-    width: 80.5vw;
+    width: 103.5vw;
+
   }
   .profile_details{
-    width: 67.9vw;
+    width: 91.4vw;
   }
 
   .message_button{
-    width: 12vw;
+    width: 16vw;
   }
 
   .appointment_button{
-    width: 55vw;
+    width: 72vw;
   }
 
   .profile_text{
-    width: 70vw;
+    width: 96vw;
   }
 
 
