@@ -66,10 +66,12 @@ width: 327px;
 
   .profile_image{
     width: 103.5vw;
+    height: 38vh;
 
   }
   .profile_details{
     width: 91.4vw;
+    border: none;
   }
 
   .message_button{
@@ -84,5 +86,6 @@ width: 327px;
     width: 96vw;
   }
 
+  
 
 }
