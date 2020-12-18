@@ -14,19 +14,23 @@
 
 table{
     border-spacing: 0px;
+    box-shadow: 0px 1px 15px -4px #c4c4c4;
+    margin-right: 20px;
 }
 
 thead{
     background-color: #E8E8E8;
-    
 }
 
 .table_heading{
     height: 50px;
+   
+    
 }
 
 .table_heading th{
     text-align: left;
+    width: 100vw;
 }
 
 
@@ -37,8 +41,23 @@ tbody{
 .named_column{
     display: flex;
     flex-direction: row;
+    margin-left: -50px;
 }
 
 .face_icon1{
     margin-left: 5vw;
+    margin-right: 5px;
+}
+
+.edit_delete{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    margin-left: -50px;
+    display: none;
+    
+}
+
+.edit_icon{
+    margin-right: 5px;
 }

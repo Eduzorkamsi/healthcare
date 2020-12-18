@@ -11,18 +11,19 @@ import Face9 from "../assets/icons/face9.svg";
 import Face10 from "../assets/icons/face10.svg";
 import Edit from "../assets/icons/edit.svg";
 import Delete from "../assets/icons/delete.svg";
+import { NavLink } from "react-router-dom";
 
 const appointmentTable = (props) => {
   return (
     <table>
       <thead>
         <tr className="table_heading">
-          <th className="catergory_name">Name</th>
+          <th className="catergory_name" style={{paddingLeft:"27px"}}>Name</th>
           <th>Email</th>
           <th>Date</th>
           <th>Visit Time</th>
           <th>Doctors</th>
-          <th>Conditions</th>
+          <th style={{paddingLeft:"10px"}}>Conditions</th>
         </tr>
       </thead>
       <tbody>
@@ -31,16 +32,18 @@ const appointmentTable = (props) => {
             <div className="named_column">
               {" "}
               <img src={Face3} className="face_icon1" alt="Icon" />{" "}
-              <h5>Leslie Alexander</h5>
+              <NavLink to="/patients"><h5>Leslie Alexander</h5></NavLink>
             </div>
           </th>
           <td>leslie.alexander@example.com</td>
           <td>10/10/2020</td>
           <td>09:25-09:45am</td>
-          <td>Dr. Jacob Jones</td>
-          <td>Mumps Stage II</td>
+          <td><NavLink to="/doctorslogs">Dr. Jacob Jones</NavLink></td>
+          <td style={{paddingLeft:"10px"}}>Mumps Stage II</td>
+          <div className="edit_delete">
           <img src={Edit} className="edit_icon" alt="Icon"/>
           <img src={Delete} className="delete_icon" alt="icon"/>
+          </div>
         </tr>
         <tr>
           <th scope="row">
@@ -54,9 +57,11 @@ const appointmentTable = (props) => {
           <td>10/12/2020</td>
           <td>12:00-12:45pm</td>
           <td>Dr. Theresa Webb</td>
-          <td>Depression</td>
+          <td style={{paddingLeft:"10px"}}>Depression</td>
+          <div className="edit_delete">
           <img src={Edit} className="edit_icon" alt="Icon"/>
           <img src={Delete} className="delete_icon" alt="icon"/>
+          </div>
         </tr>
         <tr>
           <th scope="row">
@@ -69,10 +74,12 @@ const appointmentTable = (props) => {
           <td>jane.cooper@example.com</td>
           <td>10/13/2020</td>
           <td>01:15-01:45pm</td>
-          <td>Dr. Jacob Jones</td>
-          <td>Athritis</td>
+          <td><NavLink to="/doctorslogs">Dr. Jacob Jones</NavLink></td>
+          <td style={{paddingLeft:"10px"}}>Athritis</td>
+          <div className="edit_delete">
           <img src={Edit} className="edit_icon" alt="Icon"/>
           <img src={Delete} className="delete_icon" alt="icon"/>
+          </div>
         </tr>
         <tr>
           <th scope="row">
@@ -86,9 +93,11 @@ const appointmentTable = (props) => {
           <td>10/14/2020</td>
           <td>02:00-02:45pm</td>
           <td>Dr. Arlene McCoy</td>
-          <td>Fracture</td>
+          <td style={{paddingLeft:"10px"}}>Fracture</td>
+          <div className="edit_delete">
           <img src={Edit} className="edit_icon" alt="Icon"/>
           <img src={Delete} className="delete_icon" alt="icon"/>
+          </div>
         </tr>
         <tr>
           <th scope="row">
@@ -102,9 +111,11 @@ const appointmentTable = (props) => {
           <td>10/15/2020</td>
           <td>12:00-12:45pm</td>
           <td>Dr. Esther Howard</td>
-          <td>Depression</td>
+          <td style={{paddingLeft:"10px"}}>Depression</td>
+          <div className="edit_delete">
           <img src={Edit} className="edit_icon" alt="Icon"/>
           <img src={Delete} className="delete_icon" alt="icon"/>
+          </div>
         </tr>
         <tr>
           <th scope="row">
@@ -117,10 +128,12 @@ const appointmentTable = (props) => {
           <td>marshall.cook@example.com</td>
           <td>10/17/2020</td>
           <td>01:15-01:45pm</td>
-          <td>Dr. Jacob Jones</td>
-          <td>Dyslexia</td>
+          <td><NavLink to="/doctorslogs">Dr. Jacob Jones</NavLink></td>
+          <td style={{paddingLeft:"10px"}}>Dyslexia</td>
+          <div className="edit_delete">
           <img src={Edit} className="edit_icon" alt="Icon"/>
           <img src={Delete} className="delete_icon" alt="icon"/>
+          </div>
         </tr>
         <tr>
           <th scope="row">
@@ -134,9 +147,11 @@ const appointmentTable = (props) => {
           <td>10/17/2020</td>
           <td>02:00-02:45pm</td>
           <td>Dr. Theresa Webb</td>
-          <td>Hypothermia</td>
+          <td style={{paddingLeft:"10px"}}>Hypothermia</td>
+          <div className="edit_delete">
           <img src={Edit} className="edit_icon" alt="Icon"/>
           <img src={Delete} className="delete_icon" alt="icon"/>
+          </div>
         </tr>
         <tr>
           <th scope="row">
@@ -150,9 +165,11 @@ const appointmentTable = (props) => {
           <td>10/18/2020</td>
           <td>09:15-09:45am</td>
           <td>Dr. Esther Howard</td>
-          <td>Sunburn</td>
+          <td style={{paddingLeft:"10px"}}>Sunburn</td>
+          <div className="edit_delete">
           <img src={Edit} className="edit_icon" alt="Icon"/>
           <img src={Delete} className="delete_icon" alt="icon"/>
+          </div>
         </tr>
         <tr>
           <th scope="row">
@@ -166,9 +183,11 @@ const appointmentTable = (props) => {
           <td>10/19/2020</td>
           <td>12:00-12:45pm</td>
           <td>Dr. Arlene McCoy</td>
-          <td>Diarrhoea</td>
+          <td style={{paddingLeft:"10px"}}>Diarrhoea</td>
+          <div className="edit_delete">
           <img src={Edit} className="edit_icon" alt="Icon"/>
           <img src={Delete} className="delete_icon" alt="icon"/>
+          </div>
         </tr>
         <tr>
           <th scope="row">
@@ -182,9 +201,11 @@ const appointmentTable = (props) => {
           <td>10/20/2020</td>
           <td>09:15-09:45am</td>
           <td>Dr. Arlene McCoy</td>
-          <td>Arthritis</td>
+          <td style={{paddingLeft:"10px"}}>Arthritis</td>
+          <div className="edit_delete">
           <img src={Edit} className="edit_icon" alt="Icon"/>
           <img src={Delete} className="delete_icon" alt="icon"/>
+          </div>
         </tr>
       </tbody>
     </table>

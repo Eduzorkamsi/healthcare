@@ -20,6 +20,7 @@ import Dashboard from "./components/dashboard";
 import Appointments from "./components/appointments";
 import Doctors from "./components/doctors"
 import Doctorslogs from "./components/doctorlogs"
+import Patients from "./components/patients"
 
 
 // import CreditCard from "./assets/creditcard"
@@ -45,7 +46,7 @@ const routes = [
   },
   {
     path: "/patients",
-    main: () => <h2>Patients</h2>,
+    main: () => <Patients/>,
   },
   {
     path: "/payments",
