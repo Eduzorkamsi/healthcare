@@ -169,7 +169,7 @@ export default function App() {
           style={{
             flex: 1,
             paddingLeft: "10px",
-            paddingTop: "10px",
+            // paddingTop: "10px",
             background: "white",
             height: "300vh",
           }}
