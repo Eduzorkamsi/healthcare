@@ -5,7 +5,7 @@ import CardIcon1 from "../assets/icons/kit.svg";
 import CardIcon2 from "../assets/icons/crutch.svg";
 import CardIcon3 from "../assets/icons/operation.svg";
 import CardIcon4 from "../assets/icons/bank.svg";
-import {NavLink}  from "react-router-dom";
+import { NavLink } from "react-router-dom";
 // import MultiChart  from "./multichart";
 // import MonthlyChart from "./monthlychart";
 // import AppointmentTable from "./appointmentTables";
@@ -19,29 +19,37 @@ const Dashboard = () => {
           <div className="card1">
             <img src={CardIcon1} className="card_icon1" alt="Icon" />
             <div className="card_info1">
-              <NavLink to="/appointments" ><h4>Appointments</h4></NavLink> 
-                <h3>213</h3>
+              <NavLink to="/appointments">
+                <h4>Appointments</h4>
+              </NavLink>
+              <h3>213</h3>
             </div>
           </div>
           <div className="card1">
             <img src={CardIcon2} className="card_icon1" alt="Icon" />
             <div className="card_info1">
-            <h4>New Patients</h4>
-                <h3>104</h3>
+              <NavLink to="/patients">
+                <h4>Patients</h4>
+              </NavLink>
+              <h3>104</h3>
             </div>
           </div>
           <div className="card1">
             <img src={CardIcon3} className="card_icon1" alt="Icon" />
             <div className="card_info1">
-            <NavLink to ="/doctors"><h4>Operations</h4></NavLink>
-                <h3>24</h3>
+              <NavLink to="/doctors">
+                <h4>Doctors</h4>
+              </NavLink>
+              <h3>24</h3>
             </div>
           </div>
           <div className="card1">
             <img src={CardIcon4} className="card_icon1" alt="Icon" />
             <div className="card_info1">
-            <h4>Hostipal Earnings</h4>
-                <h3>$12,174</h3>
+              <NavLink to="/departments">
+                <h4>Departments</h4>
+              </NavLink>
+              <h3>5</h3>
             </div>
           </div>
         </div>
@@ -62,7 +70,6 @@ const Dashboard = () => {
           <h2 className="appointment_header">Appointment Activity </h2>
         <AppointmentTable/>
         </div> */}
-        
       </div>
     </>
   );

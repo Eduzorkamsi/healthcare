@@ -1,0 +1,30 @@
+.bio_data {
+  background-color: white;
+  padding: 24px;
+}
+
+.bio_data h4 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  color: #52575c;
+  text-decoration: none;
+}
+
+.border_line_bio {
+  border-bottom: 1px solid #e8e8e8;
+  width: 50vw;
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+
+.bio_update_button {
+  color: #336cfb;
+  border-radius: 12px;
+  border: 1px solid #336cfb;
+  padding: 10px;
+  width: 4vw;
+  margin-top: 20px;
+}

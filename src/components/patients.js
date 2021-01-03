@@ -3,49 +3,47 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  NavLink
+  NavLink,
 } from "react-router-dom";
 import "../styles/patients.css";
 import BioData from "./BioData";
 import ContactInformation from "./ContactInformation";
 import HealthInformation from "./HealthInformation";
-import PatientVitals from "./PatientVitals"
-import Allergies from "./Allergies"
-import SocialDetails from "./SocialDetails"
-import SystemReview from "./SystemReview" 
-
+import PatientVitals from "./PatientVitals";
+import Allergies from "./Allergies";
+import SocialDetails from "./SocialDetails";
+import SystemReview from "./SystemReview";
 
 const routes = [
   {
     path: "/BioData",
     exact: true,
-    main: () => <BioData/>
+    main: () => <BioData />,
   },
   {
     path: "/ContactInformation",
-    main: () => <ContactInformation/>
+    main: () => <ContactInformation />,
   },
   {
     path: "/HealthInformation",
-    main: () => <HealthInformation/>
+    main: () => <HealthInformation />,
   },
   {
     path: "/PatientVitals",
-    main: () => <PatientVitals/>
+    main: () => <PatientVitals />,
   },
   {
     path: "/Allergies",
-    main: () => <Allergies/>
+    main: () => <Allergies />,
   },
   {
     path: "/SocialDetails",
-    main: () => <SocialDetails/>
+    main: () => <SocialDetails />,
   },
   {
     path: "/SystemReview",
-    main: () => <SystemReview/>
+    main: () => <SystemReview />,
   },
-
 ];
 
 export default function SidebarExample() {
@@ -57,79 +55,102 @@ export default function SidebarExample() {
             padding: "24px",
             width: "30%",
             background: "#FFFFFF",
-            height: "100vh"
+            height: "100vh",
           }}
         >
-            <h3 className="patient_record_title">Patient Clinical Record</h3>
+          <h3 className="patient_record_title">Patient Clinical Record</h3>
           <ul style={{ listStyleType: "none", padding: 0 }}>
             <li className="patient_nav">
-              <NavLink to="/BioData"
-               activeStyle={{
-                fontWeight: "bold",
-                color: "#336CFB",
-              }}
-            >Bio Data</NavLink>
+              <NavLink
+                to="/BioData"
+                activeStyle={{
+                  fontWeight: "bold",
+                  color: "#336CFB",
+                }}
+              >
+                Bio Data
+              </NavLink>
             </li>
             <li className="patient_nav">
-              <NavLink to="/ContactInformation"
-              activeStyle={{
-                fontWeight: "bold",
-                color: "#336CFB",
-              }}
-            >Contact Information</NavLink>
+              <NavLink
+                to="/ContactInformation"
+                activeStyle={{
+                  fontWeight: "bold",
+                  color: "#336CFB",
+                }}
+              >
+                Contact Information
+              </NavLink>
             </li>
             <li className="patient_nav">
-              <NavLink to="/HealthInformation"
-              activeStyle={{
-                fontWeight: "bold",
-                color: "#336CFB",
-              }}
-            >Health Information</NavLink>
+              <NavLink
+                to="/HealthInformation"
+                activeStyle={{
+                  fontWeight: "bold",
+                  color: "#336CFB",
+                }}
+              >
+                Health Information
+              </NavLink>
             </li>
             <li className="patient_nav">
-              <NavLink to="/PatientVitals"
-              activeStyle={{
-                fontWeight: "bold",
-                color: "#336CFB",
-              }}
-            >Patient Vitals</NavLink>
+              <NavLink
+                to="/PatientVitals"
+                activeStyle={{
+                  fontWeight: "bold",
+                  color: "#336CFB",
+                }}
+              >
+                Patient Vitals
+              </NavLink>
             </li>
             <li className="patient_nav">
-              <NavLink to="/Allergies"
-              activeStyle={{
-                fontWeight: "bold",
-                color: "#336CFB",
-              }}
-            >Allergies</NavLink>
+              <NavLink
+                to="/Allergies"
+                activeStyle={{
+                  fontWeight: "bold",
+                  color: "#336CFB",
+                }}
+              >
+                Allergies
+              </NavLink>
             </li>
             <li className="patient_nav">
-              <NavLink to="/SocialDetails"
-              activeStyle={{
-                fontWeight: "bold",
-                color: "#336CFB",
-              }}
-            >Social Details</NavLink>
+              <NavLink
+                to="/SocialDetails"
+                activeStyle={{
+                  fontWeight: "bold",
+                  color: "#336CFB",
+                }}
+              >
+                Social Details
+              </NavLink>
             </li>
             <li className="patient_nav">
-              <NavLink to="/SystemReview"
-              activeStyle={{
-                fontWeight: "bold",
-                color: "#336CFB",
-              }}
-            >System Review</NavLink>
+              <NavLink
+                to="/SystemReview"
+                activeStyle={{
+                  fontWeight: "bold",
+                  color: "#336CFB",
+                }}
+              >
+                System Review
+              </NavLink>
             </li>
           </ul>
         </div>
         <div className="border-divider"></div>
-        <div className="patient_page_div" 
-        style={{ 
-            flex: 1, 
+        <div
+          className="patient_page_div"
+          style={{
+            flex: 1,
             paddingLeft: "10px",
             paddingRight: "10px",
             paddingTop: "0px",
             background: "#e5e5e5",
-            height: "300vh", 
-            }}>
+            height: "300vh",
+          }}
+        >
           <Switch>
             {routes.map((route, index) => (
               // Render more <Route>s with the same paths as
